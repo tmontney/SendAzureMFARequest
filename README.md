@@ -20,6 +20,9 @@ When the script runs, it will check if there's a stored credential (in Credentia
 # Partner Center
 One of the resources below (comments section) makes reference to needing a [Microsoft Partner Center](https://partner.microsoft.com/en-US/) account. While creating an account is free, it's unnecessary. (Perhaps this was required when using the, soon to be deprecated, [MSOnline](https://learn.microsoft.com/en-us/powershell/azure/active-directory/overview?view=azureadps-1.0) module.) Regardless, a Partner Center account is not required for this script.
 
+# Number Matching
+As this functionality was reverse-engineered from the [NPS Extension](https://learn.microsoft.com/en-us/entra/identity/authentication/how-to-mfa-number-match#nps-extension), **number matching isn't supported**. The only thing I could get working is the basic Approve/Deny prompt. (There is mention of using OTP, but I couldn't get that to work.)
+
 # Resources
 Thanks to the following for helping me piece this together:
 * https://lolware.net/blog/using-azure-mfa-onprem-ad/
